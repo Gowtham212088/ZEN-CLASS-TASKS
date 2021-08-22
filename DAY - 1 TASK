@@ -1,0 +1,82 @@
+HTTP
+
+HTTP - Hypertext transfer protocol
+
+protocol - (i.e) Rules & Regulations.
+
+Rules and regulations to be followed for executing the HYPERTEXT TRANSFER.
+Whatever request we send from a web page that will be transferred via HTTP.
+HTTP is a connectionless protocol(i.e) after sending a request the client disconnects, When the server prepares the response, Then it will reestablish the connection again. 
+Both the client & server can read the HTTP.
+Any request from the client side sent to the server they want stored in the server.
+USAGE OF  HTTP
+http was first created only to handle HTML documents then it cannot process any images or video files etc..it does not support audio or video.
+some other features were added on the upcamed versions of http.
+HTTP .
+
+HTTP REQUEST & RESPONSE:
+CLIENT =>REQUEST => SERVER 
+                    THEN
+SERVER => RESPONSE=>CLIENT
+
+      
+HTTP REQUEST & RESPONSE HEADER:
+
+METHOD
+URL
+VERSON
+GET
+/files/Index.html
+HTTP/1.0
+
+Host ;www.facebook.com
+Accept : text / html
+Accept - language : en-us 
+Body - language : en-us
+
+
+
+
+HTTP Methods:
+Get : Request the server to send the data.
+Post : Request the server to store the data into server (Sending the username password or validation).
+
+
+HTTP Response 
+
+
+VERSON                                                                                                     STATUS CODE
+HTTP / 1.0                                                                                                                200 : ok
+
+Host ;www.facebook.com
+Accept : text / html
+Accept - language : en-us 
+Body - language : en-us
+
+
+
+HTTP 1.1
+
+HTTP 1.1
+When it comes to http 1.1 
+                  This version of protocol sends a TCP request separately for HTML, CSS, Jquery, api like the following image below.
+              
+In this case the HTTP 1.1For 3 resources client and server establishes 3 different TCP connections. Hence due to this, it creates more traffic to the server. Then the server will take its own time to serve the response.
+
+More No. of TCP connection  to server ⇒  More traffic on server.
+
+
+
+TCP :
+Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network.
+
+            HTTP 2.0
+To optimise that scenario faced on HTTP 1.1. Then the HTTP 2.0 came with Request multiplexing. HTTP 2.0  is binary, Instead of textual meaning it is more compact, travels faster on the wire and is less susceptible to errors. HTTP 2.0 is fully multiplexed. 
+
+             
+
+Which means it will carry no. of TCP requests from the different kinds of resources from the client side to server side, Unlike HTTP 1.1.
+
+
+From : GOWTHAM KUMAR V
+EMAIL : vgowtham.kumar8@gmail.com
